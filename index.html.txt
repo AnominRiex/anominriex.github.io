@@ -1,0 +1,16 @@
+<!-- HTML -->
+<button id="btnSapa">Klik Saya</button>
+<p id="teks">Halo, selamat datang!</p>
+
+<script>
+  // 1. Seleksi elemen
+  const tombol = document.getElementById('btnSapa');
+  const paragraf = document.getElementById('teks');
+
+  // 2. Tambahkan Listener (Event)
+  tombol.addEventListener('click', function() {
+    // 3. Manipulasi DOM saat tombol diklik
+    paragraf.textContent = 'Terima kasih sudah mengklik tombol!';
+    paragraf.style.color = 'green';
+  });
+</script>
