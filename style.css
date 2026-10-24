@@ -1,0 +1,40 @@
+body { /* Memilih elemen body (seluruh area tampilan halaman web) */
+    background: rgb(133, 42, 42); /* Mengatur warna latar belakang halaman menjadi merah kecokelatan */
+    margin:0; /* Menghapus jarak luar (margin) bawaan di sekeliling halaman web */
+    font-family: 'Open Sans', sans-serif; /* Mengatur jenis font utama ke 'Open Sans', atau sans-serif jika tidak tersedia */
+} /* Menutup blok aturan CSS untuk body */
+
+hr { /* Memilih elemen hr (garis pemisah horizontal) */
+    border:0; /* Menghilangkan garis tepi (border) bawaan elemen hr */
+    background:#dedede; /* Mengatur warna latar/isi garis menjadi abu-abu terang */
+    height:1px; /* Mengatur ketebalan atau tinggi garis horizontal sebesar 1 piksel */
+} /* Menutup blok aturan CSS untuk hr */
+
+header{ /* Memilih elemen header (bagian kepala/atas halaman) */
+    width: 100%; /* Mengatur lebar header agar memenuhi 100% lebar layar */
+    top: 0; /* Menentukan posisi header pada jarak 0 dari batas atas */
+    padding: 5px; /* Menambahkan jarak dalam sebesar 5 piksel di sekeliling konten header */
+    text-align: center; /* Mengatur posisi teks di dalam header agar sejajar di tengah */
+    background: #cdecb9; /* Mengatur warna latar belakang header menjadi hijau toska/cyan */
+    color: black; /* Mengatur warna teks di dalam header menjadi hitam */
+    font-size: 30px; /* Mengatur ukuran teks di dalam header sebesar 30 piksel */
+} /* Menutup blok aturan CSS untuk header */
+
+footer{ /* Memilih elemen footer (bagian kaki/bawah halaman) */
+    position: fixed; /* Mengunci posisi footer relatif terhadap layar agar tidak ikut bergulir (scroll) */
+    left: 0; /* Menempelkan posisi footer pada batas paling kiri layar */
+    bottom: 0; /* Menempelkan posisi footer pada batas paling bawah layar */
+    width: 100%; /* Mengatur lebar footer agar memenuhi 100% lebar layar */
+    background-color: rgb(203, 236, 14); /* Mengatur warna latar belakang footer menjadi hijau kekuningan */
+    color: black; /* Mengatur warna teks di dalam footer menjadi hitam */
+    text-align: center; /* Mengatur posisi teks di dalam footer agar sejajar di tengah */
+    font-style:; /* Properti untuk gaya teks (seperti italic/miring), tetapi nilainya masih kosong */
+} /* Menutup blok aturan CSS untuk footer */
+
+.prodi {
+  background-color: #ff9900;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}

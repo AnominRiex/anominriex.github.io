@@ -1,0 +1,95 @@
+/* --- HEADER --- */
+
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding: 15px 10px; /* Mengatur jarak dalam header (15px atas-bawah, 10px kiri-kanan) */
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/* END Header **/
+
+* {
+    box-sizing: border-box; /* Memastikan padding dan border tidak menambah lebar total elemen */
+}
+
+body {
+    background: rgb(133, 42, 42); /* Mengatur warna latar belakang halaman menjadi merah kecokelatan */
+    margin: 0; /* Menghapus jarak luar bawaan di sekeliling batas luar halaman */
+    font-family: 'Open Sans', sans-serif; /* Mengatur jenis huruf utama halaman web */
+    display: flex; /* Mengaktifkan Flexbox pada body */
+    flex-direction: column; /* Menyusun elemen di dalam body secara vertikal (atas ke bawah) */
+    min-height: 100vh; /* Memastikan tinggi body minimal 100% dari tinggi layar browser */
+    color: #ffffff; /* Mengubah warna teks utama paragraf menjadi putih agar terbaca */
+}
+
+/* --- ATURAN GARIS PEMISAH --- */
+hr {
+    border: 0; /* Menghilangkan garis tepi bawaan dari elemen hr */
+    background: #dedede; /* Mengatur warna garis horizontal menjadi abu-abu terang */
+    height: 1px; /* Mengatur ketebalan garis horizontal sebesar 1 piksel */
+    margin: 10px 0; /* Memberi jarak atas dan bawah pada garis pemisah */
+}
+
+/* --- KONTEN UTAMA & PARAGRAF --- */
+p {
+    padding: 15px; /* Memberi jarak dalam di sekeliling teks paragraf agar tidak menempel ke tepi layar */
+    word-break: break-all; /* Memaksa teks panjang tanpa spasi (seperti ppppp...) agar berpindah baris otomatis di layar kecil */
+    font-size: clamp(0.9rem, 2vw, 1.1rem); /* Ukuran teks paragraf otomatis menyesuaikan ukuran layar */
+    line-height: 1.5; /* Memberi jarak antar baris kalimat agar nyaman dibaca */
+    flex: 1; /* Memaksa area paragraf mengisi sisa ruang kosong antara header dan footer */
+}
+
+/* --- FOOTER --- */
+footer {
+    width: 100%; /* Mengatur lebar footer agar memenuhi 100% lebar layar */
+    background-color: rgb(203, 236, 14); /* Mengatur warna latar belakang footer menjadi hijau kekuningan */
+    color: black; /* Mengatur warna teks di dalam footer menjadi hitam */
+    text-align: center; /* Mengatur perataan teks di dalam footer agar berada di tengah */
+    padding: 10px 5px; /* Mengatur jarak dalam footer */
+    font-style: italic; /* Mengatur gaya cetak teks footer menjadi miring */
+    margin-top: auto; /* Memastikan footer selalu berada di paling bawah halaman tanpa menutupi teks */
+}
+
+footer h1 {
+    margin: 0; /* Menghapus margin bawaan dari tag h1 di dalam footer */
+    font-size: clamp(1rem, 3vw, 1.5rem); /* Mengatur ukuran teks footer responsif menyesuaikan layar */
+}

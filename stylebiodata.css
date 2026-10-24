@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Style */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Main Content Style (Background Merah) */
+.main-content {
+    background-color: #802828;
+    color: #ffffff;
+    flex: 1;
+    padding: 30px 40px;
+}
+
+/* Penggunaan ID dan Class pada label "Form Biodata" */
+#judul-biodata {
+    margin-bottom: 20px;
+}
+
+.label-biodata {
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+/* Styling Form */
+.form-biodata {
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.btn-submit:hover {
+    background-color: #232a2f;
+}
+
+/* Footer Style (Background Kuning-Hijau) */
+footer {
+    background-color: #c0f000;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
